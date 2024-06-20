@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogDeTurismo</title>
+    <meta name="description" content="Pagina web de blog de turismo">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeTurismo</span></h1>
+                </a>
+            
+                <div class="derecha">
+                    <i class="bi bi-brightness-high-fill dark" id="toggleDark"></i>
+                    <nav class="navegacion">
+                        <a href="index.html" class="navegacion__enlace">Inicio</a>
+                        <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                        <a href="viajes.html" class="navegacion__enlace">Viajes</a>
+                        <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                    </nav>
+                    
+                </div>
+            </div>
+        </div>
+
+
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de Turismo con consejos y cursos</h2>
+            <p class="no-margin">Aprende de los expertos con consejos y viajes</p>
+        </div>
+    </header>
+
+    <div class="contenedor contenido-principal">
+        <main class="blog">
+            <h3>Nuestro Blog</h3>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <img loading="lazy" src="img/blog1.jpg" alt="imagen blog">
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Los mejores destinos para visitar</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita suscipit eius culpa, autem voluptates officiis ipsa. Quos, deserunt dignissimos. Ex adipisci nobis unde accusantium molestias ullam itaque fugiat reiciendis voluptate?</p>
+                    <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <img loading="lazy" src="img/blog2.jpg" alt="imagen blog">
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Beneficios al viajar</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita suscipit eius culpa, autem voluptates officiis ipsa. Quos, deserunt dignissimos. Ex adipisci nobis unde accusantium molestias ullam itaque fugiat reiciendis voluptate?</p>
+                    <a href="entrada2.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <img loading="lazy" src="img/blog3.jpg" alt="imagen blog">
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Elegir el viaje soñado</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita suscipit eius culpa, autem voluptates officiis ipsa. Quos, deserunt dignissimos. Ex adipisci nobis unde accusantium molestias ullam itaque fugiat reiciendis voluptate?</p>
+                    <a href="entrada3.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article>
+        </main>
+        <aside class="sidebar">
+            <h3>Nuestros Viajes y Consejos</h3>
+
+            <ul class="viajes no-padding">
+                <li class="widget-viaje">
+                    <h4 class="no-margin">Amsterdam, Países Bajos</h4>
+                    <p class="widget-viaje__label">Precio:
+                        <span class="widget-viaje__info">$ 100.000</span>
+                    </p>
+                    <p class="widget-viaje__label">Cupos Disponibles:
+                        <span class="widget-viaje__info">20</span>
+                    </p>
+                    <a href="viajes.html" class="boton boton--secundario">Más Información</a>
+                </li>
+
+                <li class="widget-viaje">
+                    <h4 class="no-margin">Bahamas</h4>
+                    <p class="widget-viaje__label">Precio:
+                        <span class="widget-viaje__info">$ 200.000</span>
+                    </p>
+                    <p class="widget-viaje__label">Cupos Disponibles:
+                        <span class="widget-viaje__info">10</span>
+                    </p>
+                    <a href="viajes.html" class="boton boton--secundario">Más Información</a>
+                </li>
+
+                <li class="widget-viaje">
+                    <h4 class="no-margin">Paris, Francia</h4>
+                    <p class="widget-viaje__label">Precio:
+                        <span class="widget-viaje__info">$ 140.000</span>
+                    </p>
+                    <p class="widget-viaje__label">Cupos Disponibles:
+                        <span class="widget-viaje__info">15</span>
+                    </p>
+                    <a href="viajes.html" class="boton boton--secundario">Más Información</a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeTurismo</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="index.html" class="navegacion__enlace">Inicio</a>
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="viajes.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
